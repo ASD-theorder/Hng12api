@@ -5,6 +5,9 @@ This is a simple public API built with **FastAPI** that returns the following in
 - The URL to my project's GitHub repository.
 I designed it for the HNG12 internship challenge. I want to use it show my knowledge of backend(run your tests). You can follow the following instructions to create yours.
 
+**Live API URL**
+[https://hng12api-ansp.onrender.com]
+
 ## Setup Instructions
 - Create a new folder and name it eg basicapi
 - Open your command prompt (Win + R, type cmd then press enter)
@@ -99,11 +102,9 @@ When you make a successful `GET` request to the API,the API will respond with a 
 
 To interact with the API, simply visit the endpoint in your browser or use a tool like Postman or cURL.
 
-For example, using cURL(Command Line):
+For example, using Web browser:
 
-```bash
-curl http://127.0.0.1:8000/
-```
+Copy this link http://127.0.0.1:8000/ and run in browser
 
 This will return a response like:
 
@@ -117,11 +118,9 @@ This will return a response like:
 "https://github.com/ASD-theorder/Hng12api.git"
 }
 ```
+It will return the same response for the live API
+[https://hng12api-ansp.onrender.com]
 
 If you're interested in hiring Python developers, check out this link:
 
 [Python Developers](https://hng.tech/hire/python-developers)
-
-
-
-
