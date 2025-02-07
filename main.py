@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 from datetime import datetime
 import pytz # type: ignore
-from starlette.middleware.cors
-import CORSMiddleware # type: ignore
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
